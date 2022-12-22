@@ -24,7 +24,7 @@ Este desafio tem o intuito de avaliar seu know how em automação de testes simu
 
 Você deve abrir uma Pull Request para [este repositório](https://github.com/mbnetobr/desafio-lc-automacao), contendo os itens a seguir:
 
-- Projeto de Testes Web Modelo de Testes Automatizados Web 
+- Projeto Modelo de Testes Automatizados Web 
 
 - Instruções de como executar o projeto
 
