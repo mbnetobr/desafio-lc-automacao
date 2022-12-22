@@ -8,7 +8,7 @@ Este desafio tem o intuito de avaliar seu know how em automação de testes simu
 
 - No entanto, sabemos que devemos cobrir testes web de tela (Frontend) e testes de serviços (API)
 
-- Vocẽ como Líder de Técnico deve definir a linguagem, ferramentas, padrão de código e tudo mais que for necesário para o projeto.
+- Você como Líder de Técnico deve definir a linguagem, ferramentas, padrão de código e tudo mais que for necesário para o projeto.
 
 - Elabore um projeto esqueleto, que será utilizado como ponto de partida para automação testes pelo demais automatizadores.
 
