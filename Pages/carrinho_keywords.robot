@@ -13,7 +13,7 @@ ${Bairro}                            Cabral
 Validar que a quantidade de produtos e valores estão corretos no carrinho
     Element Should Contain           ${Lbl_SubTotal}                Subtotal (1 item):
     ${CheckPrice}    Get Text        ${Lbl_CheckPrice}
-    ${CheckPrice}    Remove String   ${CheckPrice}                  R$    ,00
+    ${CheckPrice}    Remove String   ${CheckPrice}                  R$
     ${CheckPrice}    Strip String    ${CheckPrice}
     Should Be Equal                  ${CheckPrice}                  ${Preco}
 

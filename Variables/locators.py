@@ -17,6 +17,7 @@ Lbl_CarrinhoVazio = "//h1[contains(text(),'Seu carrinho de compras da Amazon est
 Lbl_CheckPrice = "css=span[class='a-size-medium a-color-base sc-price sc-white-space-nowrap']"
 Lbl_Contas = "id:nav-link-accountList"
 Lbl_Disponivel = "css=span[class='a-size-base a-color-base s-underline-text']"
+Lbl_Fracao = "//following::span[@class='a-price-fraction']"
 Lbl_Preco = "//span[@class='a-price-whole']"
 Lbl_PrecoUnico = "//following::span[@class='a-price-whole']"
 Lbl_Produto = "//span[./text()='PRODUTO']"

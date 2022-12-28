@@ -59,6 +59,8 @@ Verificar o resultado da pesquisa, listando o produto pesquisado
 Adicionar o produto escolhido no carrinho
     ${Lbl_Produto}    Replace String     ${Lbl_Produto}         PRODUTO                ${produto}
     ${Preco}          Get Text           (${Lbl_Produto}${Lbl_PrecoUnico})[1]
+    ${Fracao}         Get Text           (${Lbl_Produto}${Lbl_Fracao})[1]
+    ${Preco}          Catenate           ${Preco},${Fracao}
     Set Test Variable                    ${Preco}
     Click Element                        ${Lbl_Produto}
     Click Element                        ${Btn_AddCarrinho}
