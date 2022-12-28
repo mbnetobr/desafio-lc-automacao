@@ -19,3 +19,8 @@ essa keyword pode ser comentanda.
 este teste falhe, poiso menu poderá ter sido retirado do site.
 
 8- Algumas vezes o portal do Amazon detecta muitas tentativas de logar e aciona o captcha, se isso acontecer pode ser que algum teste falhe.
+
+9- Devido aos projetos em que estou alocado na empresa em que trabalho não podia dispor de muito tempo para trabalhar no projeto da B2 Card, por isso como
+mencionado no Plano de Testes a ideia foi tentar priorizar as diversas funcionalidades, mas resolvi anexar alguns arquivos que eu fiz dentro da pasta Exmplos.
+Esses arquivos estão sendo feitos por mim num dos projetos em que estou alocado. É claro que os mesmos não irão funcionar se forem executados, pois não possuem
+por motivos óbvios o usuário e senha da aplicação, mas acredito que irão dar uma visão melhor do meu trabalho.
