@@ -1,0 +1,9 @@
+*** Test Cases ***;${Test_Case};${Usuario};${Senha};${Mensagem}
+Usuario correto e senha em branco;Usuario correto e senha em branco;joseautomationtest@gmail.com;${EMPTY};Insira sua senha
+Usuario correto e senha errada;Usuario correto e senha errada;joseautomationtest@gmail.com;654321;Sua senha está incorreta
+Usuario em branco e senha correta;Usuario em branco e senha correta;${EMPTY};123456;Digite seu e-mail ou número de telefone celular
+Usuario em branco e senha em branco;Usuario em branco e senha em branco;${EMPTY};${EMPTY};Digite seu e-mail ou número de telefone celular
+Usuario em branco e senha errada;Usuario em branco e senha errada;${EMPTY};654321;Digite seu e-mail ou número de telefone celular
+Usuario errado e senha e correta;Usuario errado e senha e correta;trsdtsds@test.com;123456;Não encontramos uma conta associada a este endereço de e-mail
+Usuario errado e senha em branco;Usuario errado e senha em branco;trsdtsds@test.com;${EMPTY};Não encontramos uma conta associada a este endereço de e-mail
+Usuario errado e senha errada;Usuario errado e senha errada;trsdtsds@test.com;654321;Não encontramos uma conta associada a este endereço de e-mail

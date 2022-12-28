@@ -1,0 +1,26 @@
+1- Antes de executar os testes é preciso fazer a instalação das dependências. Execute no terminal o comando:
+> pip install -r requirements.txt
+
+2- Para executar todos os testes primeiro entre na diretório onde estão as pastas do projeto, por exemplo:
+> cd C:\Automation\B2Card\desafio-lc-automacao
+
+3- Digitar o comando abaixo para executar todos os testes
+> robot -d ./Results Testcases
+
+4- O plano de teste encontra-se dentra da pasta Data
+
+5- Os reports são gerados pelo próprio Robot Framework no momento da execução.
+
+6- No Teardown inseri a keyword "Capture Page Screenshot"
+antes de fechar o navegador, caso seja uma prática na B2 Card guardar a evidência da última tela quando o teste passa, caso não seja,
+essa keyword pode ser comentanda.
+
+7- O menu do portal Amazon é dinâminco, por isso pode ser que no momento da execução o teste "Home: Caso de Teste 01 - Validando todos os menus do site"
+este teste falhe, poiso menu poderá ter sido retirado do site.
+
+8- Algumas vezes o portal do Amazon detecta muitas tentativas de logar e aciona o captcha, se isso acontecer pode ser que algum teste falhe.
+
+9- Devido aos projetos em que estou alocado na empresa em que trabalho não podia dispor de muito tempo para trabalhar no projeto da B2 Card, por isso como
+mencionado no Plano de Testes a ideia foi tentar priorizar as diversas funcionalidades, mas resolvi anexar alguns arquivos que eu fiz dentro da pasta Exmplos.
+Esses arquivos estão sendo feitos por mim num dos projetos em que estou alocado. É claro que os mesmos não irão funcionar se forem executados, pois não possuem
+por motivos óbvios o usuário e senha da aplicação, mas acredito que irão dar uma visão melhor do meu trabalho.
